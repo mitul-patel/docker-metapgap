@@ -34,9 +34,9 @@ Usage:<br/>
 
 Docker PULL Command:<br/>
 
-     docker pull mitulpatel/metapgap<br/>
+     docker pull mitulpatel/metapgap
 
 Docker RUN Command:<br/>
 
-      docker run -v `pwd`:/metaPGAP -w /metaPGAP mitulpatel/metapgap<br/>
+      docker run -v `pwd`:/metaPGAP -w /metaPGAP mitulpatel/metapgap
 
