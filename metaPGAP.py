@@ -472,7 +472,7 @@ def nwTree():
             fname=CORE_file.split('.')[0] 
             cmd= 'nw_display -s -S -b opacity:0 %s > %s/%s.svg' % (fl,out_path,fname)
             if os.system(cmd):exit()
-            pdf= 'inkscape -f %s/%s.svg -A %s.pdf'% (out_path,fname,out_path,fname)
+            pdf= 'inkscape -f %s/%s.svg -A %s.pdf'% (out_path,fname,fname)
             if os.system(pdf):exit()
   
     t1_time = time.time()
